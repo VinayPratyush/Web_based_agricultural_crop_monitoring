@@ -1,21 +1,4 @@
-# =========================================================
-# ALL INTEGRATED — Digital Shadow Orchestrator
-# =========================================================
-# Four data-source modules + stress engine + scheduler.
-# Functions are importable by app.py for on-demand refresh.
-#
-# Run modes:
-#   python all_integrated.py --now       # run pipeline once, exit
-#   python all_integrated.py --schedule  # start APScheduler and stay resident
-#   python all_integrated.py --step NAME # run a single stage
-#
-# Stages:
-#   sync_satellite_data     — Sentinel-2 from Earth Engine
-#   update_weather_data     — NASA POWER daily climate
-#   run_wheat_inference     — LSTM → binary wheat mask
-#   run_stress_engine       — per-pixel stress codes 1..5
-#   run_decision_support    — field-level GDD / advisory summary
-# =========================================================
+
 
 import os
 import json
@@ -34,7 +17,6 @@ import torch.nn as nn
 import rasterio
 from rasterio.windows import Window
 
-# Earth Engine / geemap are optional at import time
 try:
     import ee
     import geemap
@@ -43,9 +25,6 @@ except Exception:
     _EE_AVAILABLE = False
 
 
-# =========================================================
-# 1. PATHS & CONFIG
-# =========================================================
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR    = os.path.join(BASE_DIR, "data")
 
