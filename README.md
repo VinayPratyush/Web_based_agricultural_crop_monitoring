@@ -42,3 +42,5 @@ Run wheat_classification.py first
 then all_intgerated.py
 
 then in your powershell  streamlit run app.py
+
+Note:- this project relies on google earth engine. you will have create profile and authenticate change project name to run it.
