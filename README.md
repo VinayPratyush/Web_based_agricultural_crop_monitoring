@@ -1,4 +1,4 @@
-Keep strict folder structure if directly want to run the code
+Keep strict folder structure if directly want to run the code.
 cropharvest_datas
 |
 |___ features
@@ -34,3 +34,11 @@ cropharvest_datas
 |____ app.py
 |
 |____ wheat_classification.py
+
+
+
+Run wheat_classification.py first
+
+then all_intgerated.py
+
+then in your powershell  streamlit run app.py
