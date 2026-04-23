@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "dashboard",
+        "saved_at": "2026-04-22T23:27:30.963174"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -101.107,
+              38.115
+            ],
+            [
+              -100.993,
+              38.115
+            ],
+            [
+              -100.993,
+              38.025
+            ],
+            [
+              -101.107,
+              38.025
+            ],
+            [
+              -101.107,
+              38.115
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

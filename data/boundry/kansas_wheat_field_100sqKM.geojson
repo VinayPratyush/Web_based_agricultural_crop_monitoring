@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kansas_Wheat_Clean_Study_Area_10km_v2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-101.107, 38.025],
+            [-100.993, 38.025],
+            [-100.993, 38.115],
+            [-101.107, 38.115],
+            [-101.107, 38.025]
+          ]
+        ]
+      }
+    }
+  ]
+}
+
+
