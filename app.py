@@ -5,7 +5,7 @@ Precision agriculture decision-support UI.
 Reads Intervention_Map_YYYYMMDD.tif produced by the backend pipeline
 and lets the user filter by crop, stress type, and field coordinates.
 
-Folder structure (unchanged):
+Folder structure :
   data/
     boundry/       kansas_wheat_field_100sqKM.geojson
     live_weather/  nasa_power_weather.csv
