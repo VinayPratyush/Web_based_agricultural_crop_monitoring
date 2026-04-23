@@ -16,7 +16,7 @@
 #       ├── labels.geojson
 #       └── features/arrays/*.h5
 #
-# Output (unchanged — compatible with all_integrated.py):
+# Output (compatible with all_integrated.py):
 #   wheat_model.pth
 #   mean.npy   shape (1, 1, 11)
 #   std.npy    shape (1, 1, 11)
